@@ -2,3 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.gridCom:nth-child(even) {
+ flex-direction: row-reverse;
+}

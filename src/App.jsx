@@ -1,12 +1,13 @@
 import { useState } from "react";
 import "./index.css";
 import { Hero } from "./components/Hero";
-
+import {Grid } from "./components/Grid"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-greyFC">
       <Hero />
+      <Grid />
     </div>
   );
 }
