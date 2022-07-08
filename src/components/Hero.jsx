@@ -6,7 +6,7 @@ import Logo from "../images/logo.png";
 export const Hero = () => {
   return (
     <section className="h-full">
-        {/* background image */}
+      {/* background image */}
       <img
         className="absolute h-[42em] w-screen z-1 object-cover 
         bg-auto bg-top"
@@ -14,9 +14,9 @@ export const Hero = () => {
         alt="Hero Image"
       />
       {/* header container */}
-      <nav className="relative z-10 flex flex-row justify-between items-center pt-16 lg:px-36 md:px-12 w-full min-w-[10em]">
+      <nav className="m-auto relative z-10 flex flex-wrap flex-row justify-between items-end pt-16 lg:px-36 px-12 w-full max-w-[60em] ">
         <img className="w-40" src={Logo} alt="logo" />
-        <ul className="flex items-center justify-end uppercase gap-6 text-whiteFC">
+        <ul className="flex  items-center justify-end uppercase gap-6 text-whiteFC sm:hidden">
           <li className="">About</li>
           <li className="">Process</li>
           <li className="">Projects</li>
@@ -26,18 +26,22 @@ export const Hero = () => {
 
       {/* hero text  */}
 
-      <div className="relative z-10 heroText mt-48 flex h-full flex-col justify-center items-center">
-        <span className="font-serif text-2xl text-center text-whiteFC w-2/5 max-w-[16em]">
-          {" "}
-          We'll help your business grow trough creative direction and strategic
-          branding
-        </span>
-        <br />
-        <a className="text-whiteFC" href="">
-          Get Started &gt;{" "}
-        </a>
+      <div className=" relative h-[20em] z-10 heroText mt-48 flex flex-col justify-between  items-center">
+        <div className="w-2/5 text-center ">
+          <span className="font-serif text-2xl text-whiteFC  max-w-[20em]">
+            {" "}
+            We'll help your business grow trough creative direction and
+            strategic branding
+          </span>
+          <br />
+          <a className="text-xs text-whiteFC" href="">
+            Get Started &gt;{" "}
+          </a>
+        </div>
 
-        <span className="text-whiteFC ">Scroll</span>
+        <div>
+          <span className="uppercase text-sm text-slate-50">Scroll</span>
+        </div>
       </div>
     </section>
   );
