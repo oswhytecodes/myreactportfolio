@@ -4,9 +4,12 @@
 @tailwind utilities;
 
 * {
-  outline: red 1px solid;
+  /* outline: red 1px solid; */
 }
-.gridCom:nth-child(even) {
+
+  .gridCom:nth-child(even) {
   flex-direction: row-reverse;
 }
+
+
 

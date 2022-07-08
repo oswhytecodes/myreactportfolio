@@ -5,10 +5,10 @@ import Logo from "../images/logo.png";
 
 export const Hero = () => {
   return (
-    <section className="h-full">
+    <section className="m-auto h-full max-w-[60em]">
       {/* background image */}
       <img
-        className="absolute h-[42em] w-screen z-1 object-cover 
+        className="absolute h-[42em] max-w-[60em] z-1 object-cover 
         bg-auto bg-top"
         src={HeroImage}
         alt="Hero Image"
@@ -16,7 +16,7 @@ export const Hero = () => {
       {/* header container */}
       <nav className="m-auto relative z-10 flex flex-wrap flex-row justify-between items-end pt-16 lg:px-36 px-12 w-full max-w-[60em] ">
         <img className="w-40" src={Logo} alt="logo" />
-        <ul className="flex  items-center justify-end uppercase gap-6 text-whiteFC sm:hidden">
+        <ul className="md:flex  items-center justify-end uppercase gap-6 text-whiteFC hidden">
           <li className="">About</li>
           <li className="">Process</li>
           <li className="">Projects</li>
@@ -26,9 +26,9 @@ export const Hero = () => {
 
       {/* hero text  */}
 
-      <div className=" relative h-[20em] z-10 heroText mt-48 flex flex-col justify-between  items-center">
-        <div className="w-2/5 text-center ">
-          <span className="font-serif text-2xl text-whiteFC  max-w-[20em]">
+      <div className=" relative h-[20em] z-10 heroText mt-56 flex flex-col justify-between  items-center">
+        <div className="sm:w-2/5 text-center ">
+          <span className="font-serif text-2xl text-whiteFC  max-w-[20em] ">
             {" "}
             We'll help your business grow trough creative direction and
             strategic branding

@@ -18,11 +18,11 @@ export const Grid = () => {
         className="gridCom flex flex-wrap justify-between flex-row w-full h-96"
       >
         {/* image container */}
-        <img className="w-[50%] h-96  object-cover" src={el.img} alt="" />
+        <img className="w-[50%] h-96 object-cover  " src={el.img} alt="" />
         {/* text container */}
         <div
           style={{backgroundColor:el.color}}
-          className="w-[50%] flex flex-col flex-wrap justify-center items-center "
+          className="w-[50%] p-2 flex flex-col justify-center items-center  "
         >
           <h2 className="uppercase text-xs text-whiteFC">{el.header}</h2>
           <p className="max-w-[11em] text-whiteFC mt-4 text-xl font-serif text-center">
@@ -34,7 +34,7 @@ export const Grid = () => {
   });
 
   return (
-    <section className="md:mt-[1em] sm:mt-[1em] m-auto max-w-[60em]">
+    <section className=" sm:mt-[1em] m-auto max-w-[60em]">
       {gridEl}
     </section>
   );

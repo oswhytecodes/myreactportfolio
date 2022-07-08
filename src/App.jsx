@@ -5,7 +5,7 @@ import {Grid } from "./components/Grid"
 
 function App() {
   return (
-    <div className="App bg-greyFC">
+    <div className="App bg-whiteFC/70">
       <Hero />
       <Grid />
     </div>

@@ -26,7 +26,7 @@ export default {
         id: "4",
         img: "src/images/image10.jpg",
         header: "Planet",
-        text: "Focusing on delivering environmentally-friendly solutions.",
+        text: "Focusing on delivering environmentally friendly solutions.",
         color: "#526749",
       },
     ],
