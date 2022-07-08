@@ -3,28 +3,28 @@ export default {
     grid: [
       {
         id: "1",
-        img: "src/images/image5.jpg",
+        img: "./images/image5.jpg",
         header: "Solutions",
         text: "Design through critical thinking and problem solving.",
         color: "#D68A56",
       },
       {
         id: "2",
-        img: "src/images/image9.jpg",
+        img: "./images/image9.jpg",
         header: "Narrative",
         text: "Thoughtfully crafting brands that tell meaningful stories.",
         color: "#F9B3AB",
       },
       {
         id: "3",
-        img: "src/images/image6.jpg",
+        img: "./images/image6.jpg",
         header: "Bespoke",
         text: "Personalizing our design process for each of our clients.",
         color: "#ECAC5B",
       },
       {
         id: "4",
-        img: "src/images/image10.jpg",
+        img: "./images/image10.jpg",
         header: "Planet",
         text: "Focusing on delivering environmentally friendly solutions.",
         color: "#526749",
