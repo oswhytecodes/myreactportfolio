@@ -1,16 +1,10 @@
 import React from "react";
-import { useState } from "react";
 import gridData from "../data.js";
 import Photo from "../images/image5.jpg";
 
 export const Grid = () => {
-  const [data, setData] = useState({});
   let grid = gridData.gridData.grid;
-  //   let background = grid.map((el) => el.color);
-  //   const styles = {
-  //       backgroundColor: { background },
-  //     };
-  //     console.log(styles);
+
   let gridEl = grid.map((el) => {
     return (
       <div
@@ -21,7 +15,7 @@ export const Grid = () => {
         <img className="w-[50%] h-96 object-cover  " src={el.img} alt="" />
         {/* text container */}
         <div
-          style={{backgroundColor:el.color}}
+          style={{ backgroundColor: el.color }}
           className="w-[50%] p-2 flex flex-col justify-center items-center  "
         >
           <h2 className="uppercase text-xs text-whiteFC">{el.header}</h2>
@@ -34,8 +28,6 @@ export const Grid = () => {
   });
 
   return (
-    <section className=" sm:mt-[1em] m-auto max-w-[60em]">
-      {gridEl}
-    </section>
+    <section className=" sm:mt-[1em] m-auto max-w-[60em]">{gridEl}</section>
   );
 };
