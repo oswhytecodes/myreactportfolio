@@ -43,5 +43,15 @@ export default {
       "src/images/image9.jpg",
       "src/images/image10.jpg",
     ],
+    altTxt: [
+      "Candle posed in front of backdrop",
+      "Bottles laid flat",
+      "Box positioned with veins around it",
+      "Small bag packaged",
+      "Clay vase",
+      "Vase filled with flowers",
+      "Half opened box",
+      "Oval vase posed next to a mirror",
+    ],
   },
 };

@@ -1,10 +1,8 @@
 import React from "react";
 import gridData from "../data.js";
-import Photo from "../images/image5.jpg";
 
 export const Grid = () => {
   let grid = gridData.gridData.grid;
-
   let gridEl = grid.map((el) => {
     return (
       <div

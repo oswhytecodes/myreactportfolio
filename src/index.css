@@ -7,9 +7,14 @@
   /* outline: red 1px solid; */
 }
 
-  .gridCom:nth-child(even) {
+.gridCom:nth-child(even) {
   flex-direction: row-reverse;
 }
-
-
-
+li {
+  list-style: none;
+}
+section,
+footer {
+  margin-inline: auto;
+  max-width: 60em;
+}

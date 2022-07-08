@@ -5,10 +5,10 @@ import Logo from "../images/logo.png";
 
 export const Hero = () => {
   return (
-    <section className="m-auto h-full max-w-[60em]">
+    <section className="h-full">
       {/* background image */}
       <img
-        className="absolute h-[42em] max-w-[60em] z-1 object-cover 
+        className="absolute h-[42em] max-w-[60em] w-full z-1 object-cover 
         bg-auto bg-top"
         src={HeroImage}
         alt="Hero Image"
@@ -26,7 +26,7 @@ export const Hero = () => {
 
       {/* hero text  */}
 
-      <div className=" relative h-[20em] z-10 heroText mt-56 flex flex-col justify-between  items-center">
+      <div className="heroText relative h-[20em] z-10 mt-56 flex flex-col justify-between items-center">
         <div className="sm:w-2/5 text-center ">
           <span className="font-serif text-2xl text-whiteFC  max-w-[20em] ">
             {" "}
@@ -40,7 +40,7 @@ export const Hero = () => {
         </div>
 
         <div>
-          <span className="uppercase text-sm text-slate-50">Scroll</span>
+          <span className="uppercase text-[.8rem] text-slate-50">Scroll</span>
         </div>
       </div>
     </section>
