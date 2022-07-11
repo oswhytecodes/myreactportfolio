@@ -10,7 +10,7 @@ export const Grid = () => {
         className="gridCom flex flex-wrap justify-between flex-row w-full h-96"
       >
         {/* image container */}
-        <img className="w-[50%] h-96 object-cover  " src={el.img} alt="" />
+        <img className="w-[50%] h-96 object-cover" src={el.img} alt="" />
         {/* text container */}
         <div
           style={{ backgroundColor: el.color }}

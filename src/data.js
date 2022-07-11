@@ -32,7 +32,7 @@ export default {
     ],
 
     images: [
-      "./src/images/image1.jpg",
+      "./images/image1.jpg",
       "./src/images/image2.jpg",
       "./src/images/image3.jpg",
       "./src/images/image4.jpg",
