@@ -13,8 +13,9 @@ export const Collage = () => {
   });
   // instagram images
   let instagramPosts = images.slice(0, 6).map((el, index) => {
+    const imgUrl = new URL(el, import.meta.url).href
     return (
-      <img key={index} className="w-20 h-20 object-cover" src={el} alt="" />
+      <img key={index} className="w-20 h-20 object-cover" src={imgUrl} alt="" />
     );
   });
   return (

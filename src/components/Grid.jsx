@@ -4,13 +4,18 @@ import gridData from "../data.js";
 export const Grid = () => {
   let grid = gridData.gridData.grid;
   let gridEl = grid.map((el) => {
+    const imgUrl = new URL(el.img, import.meta.url).href;
     return (
       <div
         key={el.id}
         className="gridCom flex flex-wrap justify-between flex-row w-full h-96"
       >
         {/* image container */}
-        <img className="w-[50%] h-96 object-cover" src={el.img} alt="hey hey heyy" />
+        <img
+          className="w-[50%] h-96 object-cover"
+          src={imgUrl}
+          alt="hey hey heyy"
+        />
         {/* text container */}
         <div
           style={{ backgroundColor: el.color }}
