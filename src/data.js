@@ -55,3 +55,46 @@ export default {
     ],
   },
 };
+
+// images: [
+//   {
+//     img: "src/images/image1.jpg",
+//     altTxt: "",
+//   },
+//   {
+//     img: "src/images/image2.jpg",
+//     altTxt: "",
+//   },
+//   {
+//     img: "src/images/image3.jpg",
+//     altTxt: "",
+//   },
+//   {
+//     img: "src/images/image4.jpg",
+//     altTxt: "",
+//   },
+//   {
+//     img: "src/images/image5.jpg",
+//     altTxt: "",
+//   },
+//   {
+//     img: "src/images/image6.jpg",
+//     altTxt: "",
+//   },
+//   {
+//     img: "src/images/image7.jpg",
+//     altTxt: "",
+//   },
+//   {
+//     img: "src/images/image8.jpg",
+//     altTxt: "",
+//   },
+//   {
+//     img: "src/images/image9.jpg",
+//     altTxt: "",
+//   },
+//   {
+//     img: "src/images/image10.jpg",
+//     altTxt: "",
+//   },
+// ];
