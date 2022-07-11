@@ -32,10 +32,10 @@ export default {
     ],
 
     images: [
+      "/image1.jpg",
       "/image2.jpg",
       "/image3.jpg",
       "/image4.jpg",
-      "/image1.jpg",
       "/image5.jpg",
       "/image6.jpg",
       "/image7.jpg",
@@ -43,7 +43,6 @@ export default {
       "/image9.jpg",
       "/image10.jpg",
     ],
-
     altTxt: [
       "Candle posed in front of backdrop",
       "Bottles laid flat",
