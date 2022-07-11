@@ -1,7 +1,7 @@
 import React from "react";
 // import { Nav } from "./Nav";
-import HeroImage from "../public/assets/hero.jpg";
-import Logo from "../public/assets/logo.png";
+import HeroImage from "../public/hero.jpg";
+import Logo from "../public/logo.png";
 
 export const Hero = () => {
   return (
