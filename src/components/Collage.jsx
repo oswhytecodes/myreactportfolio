@@ -6,16 +6,16 @@ export const Collage = () => {
   // remember to add the alt txt
   // collage images
   let image = images.slice(0, 8).map((el, index) => {
-    const imgUrl = new URL(el, import.meta.url).href
+    // const imgUrl = new URL(el, import.meta.url).href
     return (
-      <img key={index} className="w-36 h-36 object-cover" src={imgUrl} alt="" />
+      <img key={index} className="w-36 h-36 object-cover" src={el.img} alt="" />
     );
   });
   // instagram images
   let instagramPosts = images.slice(0, 6).map((el, index) => {
-    const imgUrl = new URL(el, import.meta.url).href
+    // const imgUrl = new URL(el, import.meta.url).href
     return (
-      <img key={index} className="w-20 h-20 object-cover" src={imgUrl} alt="" />
+      <img key={index} className="w-20 h-20 object-cover" src={el.img} alt="" />
     );
   });
   return (

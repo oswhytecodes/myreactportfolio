@@ -4,7 +4,7 @@ import gridData from "../data.js";
 export const Grid = () => {
   let grid = gridData.gridData.grid;
   let gridEl = grid.map((el) => {
-    const imgUrl = new URL(el.img, import.meta.url).href;
+    // const imgUrl = new URL(el.img, import.meta.url).href;
     return (
       <div
         key={el.id}
@@ -13,7 +13,7 @@ export const Grid = () => {
         {/* image container */}
         <img
           className="w-[50%] h-96 object-cover"
-          src={imgUrl}
+          src={el.img}
           alt="hey hey heyy"
         />
         {/* text container */}
