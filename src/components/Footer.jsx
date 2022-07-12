@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Footer = () => {
   return (
-    <footer className='bg-greyFC text-whiteFC flex gap-4 flex-wrap md:justify-between justify-center px-20 py-12'>
+    <footer className='bg-[#C9CDF5] text-whiteFC flex gap-4 flex-wrap md:justify-between justify-center px-20 py-12'>
         <h1 className='font-serif text-3xl'>Let's chat..</h1>
         <div className='text-[.6rem] uppercase leading-4'>
             <li>Send Emails To</li>

@@ -10,7 +10,7 @@ export const Collage = () => {
     return (
       <img
         key={index}
-        className="w-36 h-36 object-cover border-[.001px] border-greyFC"
+        className="w-36 h-36 object-cover border-[.001px] border-greyFC/20"
         src={el}
         alt=""
       />
@@ -22,38 +22,16 @@ export const Collage = () => {
     return (
       <img
         key={index}
-        className="w-20 h-20 object-cover border-[.001px] border-greyFC"
+        className="w-20 h-20 object-cover border-[.001px] border-greyFC/20"
         src={el}
         alt=""
       />
     );
   });
   return (
-    <section className="pt-20 pb-10 m-auto bg-greyFC/50">
+    <section className=" pb-10 sm:mt-0 mt-36 m-auto bg-[#dfe0eb]">
       {/* quote */}
-      <div className="bg-[#C9CDF5] py-12 text-center">
-        <p className="m-auto max-w-[35em] mb-2 text-lg font-serif">
-          I am a Front-End Engineer based in the US, ready to get my feet wet in
-          the tech industry. I am a quick learner, creative and constantly
-          building. My strongest skills involve me creating and building design
-          layouts and graphics. Consider me when searching for a creative
-          developer.
-        </p>
-        <a className="text-xs mt-40 text-whiteFC" href=""></a>
-      </div>
-
-      {/* collage */}
-      <div className="my-28 w-full m-auto">
-        <h1 className="text-center text-2xl font-serif">
-          Here's some of my design work
-        </h1>
-        <div className="mt-12 m-auto flex flex-wrap justify-center items-center max-w-[40em] ">
-          {image}
-        </div>
-      </div>
-
-      {/* quote */}
-      <div className="flex p-12 bg-[#C9CDF5] w-full flex-row justify-between gap-6">
+      <div className="flex p-36 bg-[#dfe0eb] w-full flex-row justify-between gap-6">
         <h1 className="font-bold uppercase text-4xl">my skills</h1>
         <ul>
           <li>Html</li>
@@ -72,6 +50,15 @@ export const Collage = () => {
         </ul>
       </div>
 
+      {/* collage */}
+      <div className="p-20 w-full bg-[#C9CDF5] m-auto">
+        <h1 className="text-center text-2xl font-serif">
+          Here's some of my design work
+        </h1>
+        <div className="mt-12 m-auto flex flex-wrap justify-center items-center max-w-[40em] ">
+          {image}
+        </div>
+      </div>
       {/* instagram collage */}
       <div className="my-12 w-full m-auto">
         <h1 className="uppercase text-center text-xs ">

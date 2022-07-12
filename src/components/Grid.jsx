@@ -22,7 +22,7 @@ export const Grid = () => {
           className="w-[50%] p-2 flex flex-col justify-center items-center  "
         >
           <h2 className="uppercase text-xs text-whiteFC">{el.header}</h2>
-          <p className="max-w-[11em] text-whiteFC mt-4 text-xl font-serif text-center">
+          <p className="max-w-[11em] text-slate-500 mt-4 text-xl font-serif text-center">
             {el.text}{" "}
           </p>
         </div>
@@ -31,6 +31,18 @@ export const Grid = () => {
   });
 
   return (
-    <section className="sm:-mt-4 mt-[1em] m-auto max-w-[60em]">{gridEl}</section>
+    <section className="sm:-mt-4 mt-[1em] m-auto max-w-[60em]">
+      {/* quote */}
+      <div className="bg-[#dfe0eb] pt-32 pb-20  text-center">
+        <p className="m-auto max-w-[35em] text-lg font-serif">
+          I am a Frontend Developer based in the US, ready to get my feet wet in
+          the tech industry. I am a quick learner, creative and constantly
+          building. My strongest skills involve me creating and building design
+          layouts and graphics. Consider me when searching for a creative
+          developer.
+        </p>
+      </div>
+      {gridEl}
+    </section>
   );
 };

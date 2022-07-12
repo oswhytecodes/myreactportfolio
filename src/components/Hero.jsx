@@ -2,7 +2,7 @@ import React from "react";
 // import { Nav } from "./Nav";
 import HeroImage from "/gradient2.png";
 import Logo from "/favicon.png";
-import Dev from "/orincy.jpg"
+
 export const Hero = () => {
   return (
     <section className="h-full">
@@ -16,7 +16,7 @@ export const Hero = () => {
       <span className="overlay m-auto"> </span>
       {/* header container */}
       <nav className="m-auto relative z-10 flex flex-wrap flex-row justify-center items-center pt-16 lg:px-36 px-12 w-full max-w-[60em] ">
-        <ul className="md:flex  items-center justify-end uppercase gap-6 text-whiteFC hidden">
+        <ul className="flex  items-center justify-end uppercase gap-6 text-whiteFC">
           <a href="">
             <li className="">About</li>
           </a>
@@ -39,8 +39,7 @@ export const Hero = () => {
 
       <div className="heroText relative h-[20em] z-10 mt-56 flex flex-col justify-between items-center">
         <div className="sm:w-3/5 text-center ">
-          {/* <img className=" w-40" src={Dev} alt="" /> */}
-          <span className="relative font-serif text-2xl text-whiteFC  max-w-[20em] ">
+          <span className="font-serif text-2xl text-whiteFC  max-w-[20em] ">
             {" "}
             Frontend Developer | Graphic Designer
           </span>
