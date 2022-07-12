@@ -31,6 +31,6 @@ export const Grid = () => {
   });
 
   return (
-    <section className=" sm:mt-[1em] m-auto max-w-[60em]">{gridEl}</section>
+    <section className="sm:-mt-4 mt-[1em] m-auto max-w-[60em]">{gridEl}</section>
   );
 };

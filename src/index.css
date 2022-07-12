@@ -18,3 +18,16 @@ footer {
   margin-inline: auto;
   max-width: 60em;
 }
+.overlay {
+  position: absolute;
+  height: 42em;
+  width: 60em;
+  top: 0;
+  /* left: 0; */
+  background: rgba(0, 0, 0, 0.15);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  }

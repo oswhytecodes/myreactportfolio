@@ -1,8 +1,8 @@
 import React from "react";
 // import { Nav } from "./Nav";
-import HeroImage from "/hero.jpg";
-import Logo from "/logo.png";
-
+import HeroImage from "/gradient2.png";
+import Logo from "/favicon.png";
+import Dev from "/orincy.jpg"
 export const Hero = () => {
   return (
     <section className="h-full">
@@ -13,25 +13,36 @@ export const Hero = () => {
         src={HeroImage}
         alt="Hero Image"
       />
+      <span className="overlay m-auto"> </span>
       {/* header container */}
-      <nav className="m-auto relative z-10 flex flex-wrap flex-row justify-between items-end pt-16 lg:px-36 px-12 w-full max-w-[60em] ">
-        <img className="w-40" src={Logo} alt="logo" />
+      <nav className="m-auto relative z-10 flex flex-wrap flex-row justify-center items-center pt-16 lg:px-36 px-12 w-full max-w-[60em] ">
         <ul className="md:flex  items-center justify-end uppercase gap-6 text-whiteFC hidden">
-          <li className="">About</li>
-          <li className="">Process</li>
-          <li className="">Projects</li>
-          <li className="">Contact</li>
+          <a href="">
+            <li className="">About</li>
+          </a>
+          <a href="">
+            <li className="">Projects</li>
+          </a>
+          <a href="">
+            <img className="w-20" src={Logo} alt="logo" />
+          </a>
+          <a href="">
+            <li className="">Resume</li>
+          </a>
+          <a href="">
+            <li className="">Contact</li>
+          </a>
         </ul>
       </nav>
 
       {/* hero text  */}
 
       <div className="heroText relative h-[20em] z-10 mt-56 flex flex-col justify-between items-center">
-        <div className="sm:w-2/5 text-center ">
-          <span className="font-serif text-2xl text-whiteFC  max-w-[20em] ">
+        <div className="sm:w-3/5 text-center ">
+          {/* <img className=" w-40" src={Dev} alt="" /> */}
+          <span className="relative font-serif text-2xl text-whiteFC  max-w-[20em] ">
             {" "}
-            We'll help your business grow trough creative direction and
-            strategic branding
+            Frontend Developer | Graphic Designer
           </span>
           <br />
           <a className="text-xs text-whiteFC" href="">
@@ -39,9 +50,9 @@ export const Hero = () => {
           </a>
         </div>
 
-        <div>
+        {/* <div>
           <span className="uppercase text-[.8rem] text-slate-50">Scroll</span>
-        </div>
+        </div> */}
       </div>
     </section>
   );
